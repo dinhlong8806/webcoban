@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+    background-size: cover;
+}
+.khung {
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    text-align: left;
+    margin: auto;
+    margin-top: 200px;
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+label {
+    color:black;
+    font-size: 15px;
+}
+input {
+    border-radius: 2px;
+    width: 290px;
+    border-color: antiquewhite;
+    border-width: 1px;
+}
+button {
+    background-color: blue;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    width: 295px;
+    border-radius: 2px;
+}
