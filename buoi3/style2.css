@@ -1,0 +1,51 @@
+body {
+    background-color: #8981CA;
+}
+.khung {
+    border: 1px solid antiquewhite;
+    border-radius: 20px;
+    background-color: #A2ABDE;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    padding: auto;
+    padding-top: 10px;
+
+}
+h1 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.buttons {
+    border-style: solid;
+    border-width: 0px;
+    border-color: #A2ABDE;
+    text-align: center;
+}
+.anh {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid aliceblue;
+}
+.nut {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 50%;
+    font-weight: bold;
+}
