@@ -1,0 +1,144 @@
+/* phần thứ 2 */
+.noidung {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.noidung h1 {
+    color: #2b1e55;
+    margin-bottom: 20px;
+}
+.cacmon {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.mon img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.mon p {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.mon p.ac {
+    color: #e67e54;
+}
+.chonmon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff5f2;
+}
+/* phần cuối */
+.mi {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+.mi img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mi h4 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+mi p {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.giatien {
+    font-weight: bold;
+    color: #e85d2a;
+    margin-bottom: 10px;
+}
+.giacu {
+    font-size: 13px;
+    color: gray;
+    text-decoration: line-through;
+}
+button {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e85d2a;
+}
+
+.giamgia {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff4d4d;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+/* phần đầu */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-family: Arial, sans-serif;
+}
+.logo img {
+    height: 40px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+nav a.active {
+    color: #ff6b35;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+.phone-icon {
+    color: #ff6b35;
+    font-size: 18px;
+}
+.auth a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.cart {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cart-price {
+    color: black;
+}
+
